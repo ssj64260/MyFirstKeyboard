@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="3%p"
+    android:keyWidth="29.333%p"
+    android:keyHeight="22.75%p"
+    android:verticalGap="3%p">
+    <Row>
+        <Key
+            android:codes="@integer/code_1"
+            android:keyLabel="@string/key_label_1" />
+        <Key
+            android:codes="@integer/code_2"
+            android:keyLabel="@string/key_label_2" />
+        <Key
+            android:codes="@integer/code_3"
+            android:keyLabel="@string/key_label_3" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="@integer/code_4"
+            android:keyLabel="@string/key_label_4" />
+        <Key
+            android:codes="@integer/code_5"
+            android:keyLabel="@string/key_label_5" />
+        <Key
+            android:codes="@integer/code_6"
+            android:keyLabel="@string/key_label_6" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="@integer/code_7"
+            android:keyLabel="@string/key_label_7" />
+        <Key
+            android:codes="@integer/code_8"
+            android:keyLabel="@string/key_label_8" />
+        <Key
+            android:codes="@integer/code_9"
+            android:keyLabel="@string/key_label_9" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="@integer/code_delete"
+            android:keyIcon="@drawable/ic_backspace_gray_24dp" />
+        <Key
+            android:codes="@integer/code_0"
+            android:keyLabel="@string/key_label_0" />
+        <Key
+            android:codes="@integer/code_confirm"
+            android:keyLabel="@string/key_label_confirm" />
+    </Row>
+</Keyboard>
